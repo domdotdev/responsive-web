@@ -104,14 +104,12 @@
     position: fixed;
     top: 0;
     right: -100%;
-    width: 60%;
+    width: 40%;
+    background-color: rgb(210, 209, 209);
     height: 100vh;
     padding: 24px;
     z-index: 100;
     transition: 0.5s;
-    background-color: hsl(0 0% 30% / 0.1);
-    backdrop-filter: blur(3rem);
-    padding: min(30vh, 2rem) 0.1rem;
   }
   .nav_list {
     display: flex;
